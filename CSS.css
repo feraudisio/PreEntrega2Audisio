@@ -1,0 +1,105 @@
+
+body{
+    background-image: linear-gradient(#eed09d 55%, red);
+    margin: 0px;
+    margin-bottom: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+  
+a:hover{
+    color: rgb(248, 0, 0);
+}
+
+.headerIndice{
+    font-size: 20px;
+}
+
+.top {
+   text-align: center;
+   margin-bottom: 20px;
+   color: red;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.boxcontenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.caja-indice{
+    border: 5px solid rgb(0, 0, 0);
+    width: 700px;
+    background-color: hsl(24, 94%, 67%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    margin: 20px;
+}
+
+.lista{
+    text-align: center;
+}
+
+.carousel-item > iframe{
+height: 300px;
+width: 700px;
+}
+
+#ParrafoSkate{
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+}
+
+.cajas{
+    text-align: center;
+    border: 1px rgb(3, 2, 2);
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 50px;
+    align-items: flex-end;
+}
+
+.flex-caja {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgb(11, 90, 114);
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: auto auto auto;
+    
+    padding: 20px;
+
+}
+
+.grid-container div{
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+
+
+
+.footer {
+    text-align: center;
+    font-size: 25px;
+}
